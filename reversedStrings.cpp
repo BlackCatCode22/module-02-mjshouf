@@ -11,7 +11,7 @@ int main() {
     
     for (int i = 0; i < n / 2; i++)  //characters are swapped to halfway of length
 {
-        swap(w[i], w[n - i - 1]);    //loop until length less than half of length
+        swap(w[i], w[n - i - 1]);    //loop until length less than half of original length
     }
 
     cout << "Reversed string: " << w << endl;
