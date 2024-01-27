@@ -4,7 +4,7 @@
 int main() {                             //a better understanding of namespace std
    
     std::cout << "Enter a word: ";       //ask user to input a single word
-    std::string w;	
+    std::string w{};	
     std::cin >> w;
     int n = w.length();                  //length of word for calculation
     
