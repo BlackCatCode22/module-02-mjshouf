@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-                                         //I struggled with this and now have
-int main() {                             //a better understanding of namespace std
+    
+  int main() {                           //user input in a reversed string format
    
     std::cout << "Enter a word: ";       //ask user to input a single word
     std::string w{};	
