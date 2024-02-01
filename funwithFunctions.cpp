@@ -1,4 +1,4 @@
- #include <iostream> 			// for std::cout and std::cin
+#include <iostream> 			// for std::cout and std::cin
 
 int getAnIntFromTheUser(){		// prompts the user to enter an integer and then returns this integer
  
@@ -12,7 +12,7 @@ int getAnIntFromTheUser(){		// prompts the user to enter an integer and then ret
 int compareTwoInts(int x, int y) {	//takes two integers as parameters and returns the larger of the two
 
 	std::cout << x << '\n';		// display the first integer
-    std::cout << y << '\n';		// display the second integer
+    	std::cout << y << '\n';		// display the second integer
 
  	int result;			// declare variable to hold the result of the code
  
@@ -29,13 +29,13 @@ int sumTwoInts(int s, int t){		// take two integers as parameters and returns th
 	std::cout << t << '\n';		// display the second integer
 
 	int add;			// declare variable to hold result of function
-		add = s + t;		// add the two integers for the sum
+	add = s + t;			// add the two integers for the sum
 
 	return add;			// store the info in this variable and return to caller
 }
 
 int main()	{
-	 int num { getAnIntFromTheUser() }; 	// initialize num with the return value of getAnIntFromTheUser()
+	int num { getAnIntFromTheUser() }; 	// initialize num with the return value of getAnIntFromTheUser()
 		std::cout << "You entered: " << num  << '\n';
 	 
 	int res { compareTwoInts(3,4)} ;	// initialize res with the return value of compareTwoInts()
