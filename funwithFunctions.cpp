@@ -1,4 +1,4 @@
- #include <iostream> // for std::cout and std::cin
+ #include <iostream> 			// for std::cout and std::cin
 
 int getAnIntFromTheUser(){		// prompts the user to enter an integer and then returns this integer
  
@@ -37,9 +37,11 @@ int sumTwoInts(int s, int t){		// take two integers as parameters and returns th
 int main()	{
 	 int num { getAnIntFromTheUser() }; 	// initialize num with the return value of getAnIntFromTheUser()
 		std::cout << "You entered: " << num  << '\n';
-	 int res { compareTwoInts(3,4)} ;	// initialize res with the return value of compareTwoInts()
+	 
+	int res { compareTwoInts(3,4)} ;	// initialize res with the return value of compareTwoInts()
 						// the values of x and y are stored in the code
  		std::cout << "The high integer is " << res << '\n';
+	
 	int add { sumTwoInts(5,9)};		// initialize add with return value sumTwoInnts() with two integers encoded
 		std::cout << "The sum of these numbers is " << add << '\n';
 
