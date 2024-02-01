@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+// using namespace std;
 
 int main() {					// Program to return the highest of three user input
 						// integers using nested if-else statements
@@ -7,8 +7,8 @@ int main() {					// Program to return the highest of three user input
 	int answer;				// declare variabe to store the largest integer
 	int num1; int num2; int num3;		// variables to store user input
 
-	cout << "Enter three integers: " << '\n';
-    	cin >> num1 >> num2 >> num3;
+	std::cout << "Enter three integers: " << '\n';
+    	std::cin >> num1 >> num2 >> num3;
 
 	  if (num1 >= num2)			// compare the first and second variable
  	   {
@@ -33,7 +33,7 @@ int main() {					// Program to return the highest of three user input
 	        }
 	    }
 						// display largest integer
-	cout << "The largest integer is " << answer << endl; 	
+	std::cout << "The largest integer is " << answer << std::endl; 	
 	return 0;
 }
 
