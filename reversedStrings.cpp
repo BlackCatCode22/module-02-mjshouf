@@ -1,5 +1,5 @@
-#include <iostream>
-#include <string>
+#include <iostream>                      //included for std::cout and std::cin and std::end1 
+#include <string>                        //include string library to build this function std::string
     
   int main() {                           //user input in a reversed string format
    
